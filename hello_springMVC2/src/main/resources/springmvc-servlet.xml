@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--2.注册一个spring的配置文件,这个配置文件叫springmvc-servlet.xml(官方推荐叫法)-->
+    <!--这个配置文件是用来去管理springmvc的一些配置-->
+
+    <!--3.注册HandlerMapping(处理映射器,Handler:处理),交由spring管理-->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    <!--4.注册HandlerAdapter(处理适配器,Adapter:适配器),交由spring管理-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+
+    <!--5.添加视图解析器 DispatcherServlet给他的ModelAndView-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">
+        <property name="prefix" value="WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
