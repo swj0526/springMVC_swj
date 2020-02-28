@@ -11,7 +11,7 @@
         <!--3.配置初始化参数,把springmvc的配置文件跟web.xml连接-->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:springmvc-servlet.xml</param-value>
+            <param-value>classpath:applicationContext.xml</param-value>
         </init-param>
         <!--启动级别-1-->
         <load-on-startup>1</load-on-startup>
