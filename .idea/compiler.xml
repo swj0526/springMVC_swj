@@ -9,6 +9,7 @@
         <module name="springMVC_servlet" />
         <module name="hello_springMVC" />
         <module name="hello_springMVC2" />
+        <module name="hello_springMVC_annotation" />
       </profile>
     </annotationProcessing>
   </component>

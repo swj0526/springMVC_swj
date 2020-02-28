@@ -14,7 +14,7 @@
 
     <!--5.添加视图解析器 DispatcherServlet给他的ModelAndView-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">
-        <property name="prefix" value="WEB-INF/jsp/"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 </beans>
