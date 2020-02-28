@@ -11,8 +11,5 @@
         https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!--用的注解,必须使用包扫描-->
     <context:component-scan base-package="com.swj.controller"/>
-
     <import resource="classpath:springmvc-servlet.xml"/>
-    <!--注册hello,交由ioc容器管理-->
-    <bean id="/hello" class="com.swj.controller.HelloController"/>
 </beans>
