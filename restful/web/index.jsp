@@ -11,11 +11,11 @@
     <title>$Title$</title>
 </head>
 <body>
-<form action="/restful/4/5" method="put">
+<form action="/restful/4/5" method="PUT">
     <input type="submit" value="更新提交(4+5)">
 </form>
 
-<form action="/restful/5/5" method="delete">
+<form action="/restful/5/5" method="DELETE">
     <input type="submit" value="删除提交(5+5)">
 </form>
 </body>
