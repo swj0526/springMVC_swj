@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springMVC_servlet" />
+        <module name="restful" />
         <module name="hello_springMVC" />
         <module name="hello_springMVC2" />
         <module name="hello_springMVC_annotation" />

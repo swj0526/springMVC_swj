@@ -13,6 +13,7 @@
         <module>hello_springMVC</module>
         <module>hello_springMVC2</module>
         <module>hello_springMVC_annotation</module>
+        <module>restful</module>
     </modules>
 
     <dependencies>
